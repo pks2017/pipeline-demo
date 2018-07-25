@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-				git credentialsId: '486f2c77-dfb7-4a1f-9f75-cb8623d36754', url: 'https://github.com/pks2017/pipeline-demo.git'
+                echo 'Building..'				
             }
         }
         
