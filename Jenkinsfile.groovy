@@ -18,7 +18,7 @@ pipeline {
         stage('Test') {
             steps {               
 				echo 'Testing..'
-				bzt 'ApiTesting/Uber/TestSuits/test-dev-backend-uber-Suite-Smoke.yml'
+				bzt 'C:/Users/psingh/.jenkins/workspace/test-Api/ApiTesting/Uber/TestSuits/test-dev-backend-uber-Suite-Smoke.yml'
             }
         }
         
